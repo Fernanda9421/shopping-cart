@@ -7,11 +7,19 @@
 .header {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   background-color: #036b52;
   background-image: url(https://assets-global.website-files.com/61549abf6fb9ca5e91bc5709/61549abf6fb9ca4630bc5747_Logo.svg);
   background-repeat: no-repeat;
   background-position: 2rem;
   height: 5rem;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c6e9e1;
 }
 
 h1 {
